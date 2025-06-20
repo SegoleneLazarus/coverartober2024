@@ -82,7 +82,10 @@ const Apropos = () => {
                     </div>
 
                 </div>
-                <p onClick={() => navigate(-1)} className='return-link'><a href='#'>&#x2039; Retourner à l'album</a></p>
+                {/* <p onClick={() => navigate(-1)} className='return-link'><a href='#'>&#x2039; Retourner à l'album</a></p> */}
+                <button onClick={() => navigate(-1)} className="return-link no-button-style">
+  &#x2039; Retourner à l'album
+</button>
                 
             </div>
         </div>

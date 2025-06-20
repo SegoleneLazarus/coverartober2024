@@ -7,13 +7,13 @@ import "../styles/player.css";
 import "../styles/affAlbums.css";
 import Album from './Album';
 
-const AffAlbums = ({  }) => {
+const AffAlbums = () => {
   const { id } = useParams();           // l'id actuel dans l'URL
   const navigate = useNavigate(); 
     const [showAltCover, setShowAltCover] = useState(false);
     const [view, setView] = useState('affAlbum');
     const albumId = parseInt(id, 10);
-    const [selectedAlbumIndex, setSelectedAlbumIndex] = useState(null);
+    const [selectedAlbumIndex] = useState(null);
     const [isPlaying, setIsPlaying] = useState(false);
 
 
@@ -74,10 +74,10 @@ const AffAlbums = ({  }) => {
 
             <nav>
               <ul>
-                <li><a onClick={handleClickGallery}>Voir tous les albums</a></li>
-                <li><a onClick={handleNext}>Album suivant</a></li>
-                <li><a onClick={handlePrev}>Album précédent</a></li>
-                <li><a onClick={handleRandom}>Album aléatoire</a></li>
+                <li><a href='#' onClick={handleClickGallery}>Voir tous les albums</a></li>
+                <li><a href='#' onClick={handleNext}>Album suivant</a></li>
+                <li><a href='#' onClick={handlePrev}>Album précédent</a></li>
+                <li><a href='#' onClick={handleRandom}>Album aléatoire</a></li>
               </ul>
             </nav>
 
@@ -117,7 +117,7 @@ const AffAlbums = ({  }) => {
 
             <nav>
               <ul>
-                <li><a onClick={handleClickAlbum}>Voir l'album seul</a></li>
+                <li><a href='#' onClick={handleClickAlbum}>Voir l'album seul</a></li>
                 {/* <li><a onClick={handleNext}>Album suivant</a></li>
                 <li><a onClick={handlePrev}>Album précédent</a></li>
                 <li><a onClick={handleRandom}>Album aléatoire</a></li> */}

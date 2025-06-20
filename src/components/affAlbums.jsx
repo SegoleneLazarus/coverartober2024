@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import albumsData from '../data/albumData';
 import '../styles/album.css';
@@ -7,7 +7,7 @@ import "../styles/player.css";
 import "../styles/affAlbums.css";
 import Album from './Album';
 
-const AffAlbums = ({ currentIndex }) => {
+const AffAlbums = ({  }) => {
   const { id } = useParams();           // l'id actuel dans l'URL
   const navigate = useNavigate(); 
     const [showAltCover, setShowAltCover] = useState(false);

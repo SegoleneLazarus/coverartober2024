@@ -99,7 +99,7 @@ const scrollDown = () => {
                                  <div className='credits'>
                                  {album.credits.map((credit, index) => (
                                 <p key={index}>
-                                <a href={credit.reseau} target="_blank">{credit.pseudo}</a>
+                                <a href={credit.reseau} rel="noreferrer" target="_blank">{credit.pseudo}</a>
                                 </p>
                                 ))}</div>
                             

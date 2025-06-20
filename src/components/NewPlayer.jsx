@@ -26,7 +26,7 @@ const NewPlayer = forwardRef(({ currentIndex, isPlaying, setIsPlaying },ref) => 
   }
 
   // setCurrentMusicIndex(0); 
-}, [currentIndex]);
+}, [currentIndex, setIsPlaying]);
 
   // Format mm:ss
   const formatTime = (time) => {

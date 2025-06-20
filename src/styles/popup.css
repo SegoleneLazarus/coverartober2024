@@ -189,7 +189,7 @@ h2{
   right: 65px;
   width: 32px;
   height: 32px;
-  background-image: url('../assets/close.png'); /* ← chemin vers ton image */
+  background-image: url('../assets/close.png') ; /* ← chemin vers ton image */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -72,7 +72,7 @@ const AffAlbums = () => {
               isPlaying={isPlaying}
               setIsPlaying={setIsPlaying}/>
 
-            <nav>
+            <nav className='aa'>
               <ul>
                 <li>
   <button onClick={handleClickGallery} className="nav-link">
@@ -131,7 +131,7 @@ const AffAlbums = () => {
               
             </div>
 
-            <nav>
+            <nav className='aa'>
               <ul>
                 <button onClick={handleClickAlbum} className="nav-link">
     Voir l'album seul

@@ -69,7 +69,7 @@ a:hover{
   padding: 0;
 } */
 
-.aff-album nav button, .gallery nav button {
+.aff-album nav.aa button, .gallery nav.aa button {
   background: none;        /* Pas de fond */
   border: none;            /* Pas de bordure */
   color: #C8FF00;          /* Même couleur que tes liens */
@@ -78,6 +78,7 @@ a:hover{
   font: inherit;           /* Même police que le texte autour */
   padding: 0;              /* Pas de padding par défaut */
   font-size: inherit;      /* Même taille de police */
+  text-shadow:  1px 1px 0 #000;
 }
 
 /* Hover (optionnel, mais conseillé) */

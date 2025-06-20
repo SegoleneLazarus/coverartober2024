@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/coverartober2024/static/css/main.33fb2268.css",
-    "main.js": "/coverartober2024/static/js/main.506ae17a.js",
+    "main.js": "/coverartober2024/static/js/main.9dfb24f9.js",
     "static/js/453.2162c9ed.chunk.js": "/coverartober2024/static/js/453.2162c9ed.chunk.js",
     "static/media/afrobeat.mp3": "/coverartober2024/static/media/afrobeat.9adae5b2c826f26ab001.mp3",
     "static/media/Manu_est_mort_version_longue.mp3": "/coverartober2024/static/media/Manu_est_mort_version_longue.3c391278851ff34c1754.mp3",
@@ -81,11 +81,11 @@
     "static/media/logo.svg": "/coverartober2024/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/coverartober2024/index.html",
     "main.33fb2268.css.map": "/coverartober2024/static/css/main.33fb2268.css.map",
-    "main.506ae17a.js.map": "/coverartober2024/static/js/main.506ae17a.js.map",
+    "main.9dfb24f9.js.map": "/coverartober2024/static/js/main.9dfb24f9.js.map",
     "453.2162c9ed.chunk.js.map": "/coverartober2024/static/js/453.2162c9ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33fb2268.css",
-    "static/js/main.506ae17a.js"
+    "static/js/main.9dfb24f9.js"
   ]
 }

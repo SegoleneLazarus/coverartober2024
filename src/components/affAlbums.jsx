@@ -1,12 +1,10 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import albumsData from '../data/albumData';
 import '../styles/album.css';
 import catLogo from '../assets/catLogo.gif';
-import PlayerPlayList from './PlayerPlaylist';
 import "../styles/player.css";
 import "../styles/affAlbums.css";
-import NewPlayer from './NewPlayer';
 import Album from './Album';
 
 const AffAlbums = ({ currentIndex }) => {
@@ -32,7 +30,7 @@ const AffAlbums = ({ currentIndex }) => {
     const handleNext = () => {
       navigate(`/album/${albumId + 1}`);
       setShowAltCover(false);
-      if(albumId==30) {
+      if(albumId===30) {
         navigate(`/album/0`);
       }
     };
@@ -40,7 +38,7 @@ const AffAlbums = ({ currentIndex }) => {
     const handlePrev = () => {
       if (albumId > 0) navigate(`/album/${albumId - 1}`);
       setShowAltCover(false);
-      if(albumId==0) {
+      if(albumId===0) {
         navigate(`/album/30`);
       }
     };

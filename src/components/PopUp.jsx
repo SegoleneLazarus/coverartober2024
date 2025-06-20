@@ -1,5 +1,4 @@
 import React , { useState, useEffect, useRef } from 'react';
-import albumsData from '../data/albumData';
 import '../styles/popup.css';
 
 function PopUp({isOpen, onClose, album}) {
@@ -108,8 +107,8 @@ const scrollDown = () => {
                             {/* <h2>Commentaire</h2>
                             <p>{album.commentaire}</p> */}
                             <h2>Recommendations</h2>
-                            <p className='reco'>En cours : <a href={album.playlist[0].yt} target="_blank">{album.playlist[0].title} - {album.playlist[0].artiste} </a></p>
-                            {/* <p className='reco'>Liste de lecture : <a href={album.playlist[1].yt} target="_blank">{album.playlist[1].title} </a></p> */}
+                            <p className='reco'>En cours : <a href={album.playlist[0].yt} rel="noreferrer" target="_blank">{album.playlist[0].title} - {album.playlist[0].artiste} </a></p>
+                            {/* <p className='reco'>Liste de lecture : <a href={album.playlist[1].yt} rel="noreferrer" target="_blank">{album.playlist[1].title} </a></p> */}
 
                         </div>
                     </div>

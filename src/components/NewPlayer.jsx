@@ -5,7 +5,6 @@ import "../styles/player.css";
 
 const NewPlayer = forwardRef(({ currentIndex, isPlaying, setIsPlaying },ref) => {
   const [currentMusicIndex, setCurrentMusicIndex] = useState(0);
-  // const [isPlaying, setIsPlaying] = useState(false);
   const [audioProgress, setAudioProgress] = useState(0);
   const [duration, setDuration] = useState('00:00');
   const [currentTime, setCurrentTime] = useState('00:00');
@@ -49,18 +48,6 @@ const NewPlayer = forwardRef(({ currentIndex, isPlaying, setIsPlaying },ref) => 
     const audio = audioRef.current;
     if (!audio) return;
     setDuration(formatTime(audio.duration));
-  };
-
-  const handlePlayPause = () => {
-    const audio = audioRef.current;
-    if (!audio) return;
-
-    if (isPlaying) {
-      audio.pause();
-    } else {
-      audio.play();
-    }
-    setIsPlaying(!isPlaying);
   };
 
   const handleBarClick = (e) => {

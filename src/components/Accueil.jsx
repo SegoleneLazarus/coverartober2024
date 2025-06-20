@@ -73,7 +73,6 @@ const Accueil = () => {
 
   const [isCrushed, setIsCrushed] = useState(false);
   const [isRefused, setIsRefused] = useState(false);
-  let sonIndex = 0;
   const sonIndexRef = useRef(0);
 
   const handleCrush = () => {
@@ -101,9 +100,6 @@ const Accueil = () => {
     sonIndexRef.current = (sonIndexRef.current + 1) % sonsNon.length;
   };
 
-  const handleClickVue = () => {
-    navigate("/album/0");
-  };
   const handleClickGourmand = () => {
     const index =[5,27,18,9,2];
     const randomIndex = Math.floor(Math.random() * index.length);

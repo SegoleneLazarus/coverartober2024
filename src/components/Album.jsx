@@ -17,7 +17,6 @@ const Album = ({ showAltCover, setShowAltCover,isPlaying, setIsPlaying }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const toggleCover = () => setShowAltCover((prev) => !prev);
-    const imageRef = useRef(null);
     const [hovered, setHovered] = useState(false);
     // const [isPlaying, setIsPlaying] = useState(false);
     const [isPopupOpen, setIsPopupOpen] = useState(false);
@@ -77,7 +76,7 @@ const Album = ({ showAltCover, setShowAltCover,isPlaying, setIsPlaying }) => {
                   <img 
                   className='img-flex' 
                   src={teteMii} alt="tete de mii" />
-                  <img className='hover-image' src={explication} alt="image au hover" />
+                  <img className='hover-image' src={explication} alt="cliquez sur la tête" />
                 </div>
               </div>
 

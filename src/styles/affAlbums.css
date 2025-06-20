@@ -59,6 +59,38 @@ a:hover{
    cursor: pointer;
 }
 
+/* .nav-link {
+  background: none;
+  border: none;
+  color: #FF00C8;
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+} */
+
+.aff-album button, .gallery button {
+  background: none;        /* Pas de fond */
+  border: none;            /* Pas de bordure */
+  color: #C8FF00;          /* Même couleur que tes liens */
+  text-decoration: underline; /* Souligné comme un lien */
+  cursor: pointer;         /* Curseur en main au hover */
+  font: inherit;           /* Même police que le texte autour */
+  padding: 0;              /* Pas de padding par défaut */
+  font-size: inherit;      /* Même taille de police */
+}
+
+/* Hover (optionnel, mais conseillé) */
+.aff-album button:hover, .gallery button:hover {
+  text-decoration: none;  /* Par exemple, enlever le soulignement au hover */
+}
+
+/* Focus accessible (pour navigation clavier) */
+.aff-album button:focus, .gallery button:focus {
+  outline: 2px solid #C8FF00; /* Contour visible pour focus */
+  outline-offset: 2px;
+}
+
 footer{
     position: fixed;
     right: 2%;
@@ -68,6 +100,26 @@ footer{
     text-decoration: underline;
     /* text-shadow:  1px 1px 0 #000; */
     font-family: 'Windows Command Prompt', sans-serif;
+}
+
+footer .footer-link {
+  background: none;
+  border: none;
+  color: inherit;             /* hérite de la couleur du footer */
+  text-decoration: underline;
+  cursor: pointer;
+  font: inherit;              /* hérite police, taille, etc */
+  padding: 0;
+  font-size: inherit;
+}
+
+footer .footer-link:hover {
+  text-decoration: none;      /* optionnel, style au hover */
+}
+
+footer .footer-link:focus {
+  outline: 2px solid #E7E5F7; /* contour visible au focus clavier */
+  outline-offset: 2px;
 }
 
 

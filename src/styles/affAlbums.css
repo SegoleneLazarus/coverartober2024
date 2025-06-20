@@ -1,0 +1,145 @@
+.gallery-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 20px; */
+  height: 100vh;
+  background-size:cover ;
+  background-repeat: no-repeat;
+}
+
+.bg-affAlbum{
+      background-image: url(../assets/CLOUDS_copy.JPG);
+
+}
+
+.bg-gallery{
+  background-image: url(../assets/sky.png);
+
+}
+
+.aff-album {
+  /* width: 100%; */
+  /* height: 85%; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; */
+   position: relative;
+}
+
+.aff-album nav{
+    position: fixed;
+    left: 80%;
+    bottom: 50%;
+}
+
+.aff-album ul, .gallery ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: end;
+    font-size: 1.2em;
+    text-shadow:  1px 1px 0 #000;
+    /* font-family: "Yu Gothic Light", "游ゴシック Light", YuGothic, "游ゴシック体"; */
+    font-family: 'Type Wheel', sans-serif;
+}
+.aff-album li, .gallery li{
+    /* margin: 0;    */
+    padding-bottom: 40px;
+}
+
+.aff-album a, .gallery  a{
+    color: #C8FF00;
+    text-decoration: underline;
+}
+
+a:hover{
+   cursor: pointer;
+}
+
+footer{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    color: #E7E5F7;
+    font-size: 1.2em;
+    text-decoration: underline;
+    /* text-shadow:  1px 1px 0 #000; */
+    font-family: 'Windows Command Prompt', sans-serif;
+}
+
+
+
+/* GALLERIE */
+
+.gallery {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /* background-image: url(../assets/sky.png);
+    background-repeat: no-repeat;
+    background-position: -50% 90%;
+    background-size: cover; */
+    /* position: relative; */
+}
+
+.album-grid{
+    /* position: absolute; */
+    width: 30vw;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+    padding-bottom: 5%;
+
+}
+
+.album-gallery-cover{
+    width: 5vw;
+}
+
+.gallery .teteMii{
+    width: 5vw;
+    left: -17%;
+}
+
+.gallery .telecharger{
+    width: 5vw;
+    left: -15%;
+}
+
+.gallery nav{
+    position: fixed;
+    left: 78%;
+    bottom: 12%;
+}
+
+.gallery .album-container{
+    height: fit-content;
+}
+
+.album-gallery-cover.inactive {
+  opacity: 0.8;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.album-gallery-cover.active {
+  opacity: 1;
+  filter: none;
+}
+
+.album-gallery-cover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.album-gallery-cover{
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.677);
+}

@@ -1,0 +1,227 @@
+.popup-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.popup-container {
+    top: 50%;
+     left: 53%;
+     transform: translate(-50%, -50%); 
+     /* margin: 0 auto; */
+    position: fixed;
+    height: 95vh;   
+    width: auto;
+
+    aspect-ratio: 8 / 9;
+
+    background-image: url('../assets/livre.png');
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-position: center;
+
+    padding-top: 4%;
+}
+
+.popup-content {
+    /* width: 35vw; */
+    /* padding-left: 14%;
+    padding-right: 14%;
+    padding-top: 10%; */
+    overflow-y: auto;
+    max-height: 80vh;
+
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+    padding: 4% 17%;
+}
+
+.popup-content p{
+    font-family: 'Type Wheel', sans-serif;
+      font-size: clamp(1rem, 1.2vw, 1.5rem);
+      white-space:break-spaces;
+}
+
+h1, h2{
+    font-family: 'Windows Command Prompt',sans-serif;
+    font-size: 2.3em;
+    width: fit-content;
+}
+
+h1{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 4%;
+    text-transform: uppercase;
+    font-size: 2.7em;
+    color: rgb(83, 0, 64);
+    /* margin-left: 13%; */
+    /* width: 90%; */
+}
+
+h2{
+  color: rgb(80, 77, 107);
+}
+
+
+.histo{
+    /* width: 30vw; */
+}
+
+.vers{
+    text-align: center;
+    /* width: 90%; */
+    font-size: large;
+    line-height: 200%;    /* margin: 0 auto; */
+}
+
+
+/* SCROLL */
+
+.scroll-container {
+  display: flex;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Zone scrollable avec le contenu */
+.scroll-inner {
+  flex: 1;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+}
+
+
+.no-scroll {
+  overflow: hidden !important;
+  position: fixed;
+  width: 100%;
+}
+
+.custom-scrollbar {
+  position: absolute;
+  right: 70px;
+  top: 15%;
+  bottom: 10%;
+  width: 10px;
+  background: #beff85;
+  border: 2px solid #C8FF00;
+  box-shadow:
+    inset -1px -1px 0 #ffffff,
+    inset 1px 1px 0 #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+/* Les deux boutons fixes en haut et bas */
+.scroll-button {
+  width: 100%;
+  height: 18px;
+  text-align: center;
+  line-height: 16px;
+  font-size: 12px;
+  background: #C8FF00;
+  border: 1px solid #C8FF00;
+  box-shadow:
+    inset -1px -1px 0 #ffffff,
+    inset 1px 1px 0 #000000;
+  cursor: pointer;
+  user-select: none;
+  z-index: 2;
+}
+
+/* Track pour la zone où le thumb peut se déplacer */
+.thumb-track {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  margin: 2px 0;
+  z-index: 1;
+}
+
+/* Le thumb reste dans le track, sans déborder sur les boutons */
+.scroll-thumb {
+  position: absolute;
+  left: 1px;
+  width: 8px;
+  background: linear-gradient(#f1ffc1, #C8FF00);
+  border: 1px solid #6e8d00;
+  box-shadow:
+    inset 1px 1px 0 #fff,
+    inset -1px -1px 0 #666;
+  border-radius: 2px;
+  cursor: grab;
+  z-index: 1;
+}
+
+
+/* CLOSE */
+
+/* .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #333;
+} */
+
+.popup-close {
+  position: absolute;
+  top: 65px;
+  right: 65px;
+  width: 32px;
+  height: 32px;
+  background-image: url('../assets/close.png'); /* ← chemin vers ton image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent ;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  z-index: 20;
+  padding: 0;
+}
+
+.popup-close:hover {
+  filter: brightness(1.1);
+}
+
+.popup-close:active {
+  filter: brightness(0.9);
+}
+
+.reco a,.credits a{
+  color: blue;
+}
+
+.credits{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

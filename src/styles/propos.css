@@ -68,6 +68,7 @@ grid-row: span 2 / span 2;
   text-align: center;
   color: #FF00C8;
   text-decoration: underline;
+  font-family: 'Type Wheel', sans-serif;
 }
 
 .no-button-style {

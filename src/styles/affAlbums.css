@@ -69,7 +69,7 @@ a:hover{
   padding: 0;
 } */
 
-.aff-album nav.aa button, .gallery nav.aa button {
+.aff-album nav.aa button, .gallery nav.aa button, .playbutton {
   background: none;        /* Pas de fond */
   border: none;            /* Pas de bordure */
   color: #C8FF00;          /* Même couleur que tes liens */

@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import Accueil from './components/Accueil.jsx';
 import Apropos from './components/aPropos.jsx';

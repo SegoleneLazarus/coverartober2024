@@ -1,6 +1,5 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import bulletxt from "../assets/bulletxt.png";
-import bulletxt2 from "../assets/bulletxt2.png";
 import pxart from "../assets/pxArt.png";
 import "../styles/accueil.css";
 import PetitBouton from './PetitBouton';
@@ -8,7 +7,6 @@ import { useNavigate } from 'react-router-dom';
 
 const sons = [
   "/sons/circus-boing.mp3",
-  // "/sons/chinese-boing.mp3",
   "/sons/cartoon-boing.mp3",
   "/sons/cartoon-boing_2.mp3",
   "/sons/cartoon-boing_3.mp3",

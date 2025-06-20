@@ -74,10 +74,10 @@ const AffAlbums = () => {
 
             <nav>
               <ul>
-                <li><a href='#' onClick={handleClickGallery}>Voir tous les albums</a></li>
-                <li><a href='#' onClick={handleNext}>Album suivant</a></li>
-                <li><a href='#' onClick={handlePrev}>Album précédent</a></li>
-                <li><a href='#' onClick={handleRandom}>Album aléatoire</a></li>
+                <li><a href='#' onClick={(e) => { e.preventDefault(); handleClickGallery(); }}>Voir tous les albums</a></li>
+                <li><a href='#' onClick={(e) => { e.preventDefault(); handleNext(); }}>Album suivant</a></li>
+                <li><a href='#' onClick={(e) => { e.preventDefault(); handlePrev(); }}>Album précédent</a></li>
+                <li><a href='#' onClick={(e) => { e.preventDefault(); handleRandom(); }}>Album aléatoire</a></li>
               </ul>
             </nav>
 
@@ -117,7 +117,7 @@ const AffAlbums = () => {
 
             <nav>
               <ul>
-                <li><a href='#' onClick={handleClickAlbum}>Voir l'album seul</a></li>
+                <li><a href='#' onClick={(e) => { e.preventDefault(); handleClickAlbum();}}>Voir l'album seul</a></li>
                 {/* <li><a onClick={handleNext}>Album suivant</a></li>
                 <li><a onClick={handlePrev}>Album précédent</a></li>
                 <li><a onClick={handleRandom}>Album aléatoire</a></li> */}

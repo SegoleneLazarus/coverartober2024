@@ -86,7 +86,7 @@ const albumsData = [
       vers: `« Le souffle encore chaud du vent,    \nemporte ton dernier souvenir »`,
       style: "EDM",
       historique:"L'electronic dance music (EDM), ou dance, définit différents genres de musique électronique entièrement composés pour danser.",
-      credits: [{pseudo:"Florian", reseau:""}],
+      credits: [{pseudo:"Florian", reseau:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F28%2F7d%2F47%2F287d476e21403c4a0459102c404cc361.jpg&f=1&nofb=1&ipt=c07964b3e3b42b8d7e476885268a941a36ccebda01925975843084ba5c14df5c"}],
       reco:"blibloublap",
       commentaire:"/"
 
@@ -147,7 +147,7 @@ const albumsData = [
       vers: `« Cigarettes, gingembre, musc,     \nEsprit embrumé de tes sens, \nJ'attends que le vent les emporte »`,
       style: "Synthwave",
       historique:"La synthwave, également appelée retrowave, est un genre musical et artistique rétro-futuriste ayant émergé au début des années 2010. Influencé par la musique et les films des années 1980, le genre naît d'un mouvement de nostalgie de ladite décennie en proposant les mêmes sonorités, accords et mélodies mais avec une production plus moderne, un rendu plus ambiant et une utilisation plus rare du chant. La synthwave est souvent associée à la culture geek, aux jeux vidéo et à l'esthétique rétro-futuriste des années 1980.",
-      credits: [{pseudo:"Florian", reseau:""},{pseudo:"Marion", reseau:"https://www.instagram.com/marmottion/"},{pseudo:"Khandro", reseau:"https://www.instagram.com/tr0l0catladybug/"}],
+      credits: [{pseudo:"Florian", reseau:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F28%2F7d%2F47%2F287d476e21403c4a0459102c404cc361.jpg&f=1&nofb=1&ipt=c07964b3e3b42b8d7e476885268a941a36ccebda01925975843084ba5c14df5c"},{pseudo:"Marion", reseau:"https://www.instagram.com/marmottion/"},{pseudo:"Khandro", reseau:"https://www.instagram.com/tr0l0catladybug/"}],
       reco:"blibloublap",
       commentaire:"zoing"
     },
@@ -267,7 +267,7 @@ const albumsData = [
       vers: `« J'ai demandé à Dieu ce qu'était l'amour   \nIl m'a dit d'écouter cette cassette. \nSont-ce les cloches du Paradis ? »`,
       style: "Vaporwave",
       historique:"La ｖａｐｏｒｗａｖｅ est un genre musical et mouvement artistique ayant émergé sur internet dans les années 2010 des scènes dance indépendantes comme le seapunk, la bounce house, la witch house, et le chillwave. La vaporwave est caractérisée par sa nostalgie et sa fascination pour la culture rétro, la technologie, et les pubs des années 1980 et 1990. Bien que son attitude et son message soient divergents et ambigus, la vaporwave sert à la fois de critique et de parodie de la société de consommation, du système capitaliste, de la propagande, de la culture yuppie des années 1980, et de la musique new age.  ",
-      credits: [{pseudo:"", reseau:""},{pseudo:"", reseau:""}],
+      credits: [{pseudo:"", reseau:""}],
       reco:"blibloublap",
       commentaire:"zoing"
     },
@@ -282,7 +282,7 @@ const albumsData = [
       vers: `« Accorde moi cette danse    \nUne première puis une infinité \nQue nos corps jamais ne se séparent. »`,
       style: "Tango",
       historique:"Le tango est un genre musical et une danse de salon argentine et uruguayenne, plus précisément du Río de la Plata, née à la fin du XIXe siècle. Comme forme rythmique, il désigne le plus souvent une mesure à deux ou quatre temps plutôt marquée, mais avec un vaste éventail de tempos et de styles rythmiques très différents selon les époques et les orchestres. Le tango comme genre musical englobe trois formes musicales rioplatense sur lesquelles se dansent traditionnellement les pas du tango : tangos, milongas et valses. Ainsi, la majorité des orchestres et compositeurs cités dans cet article comme des grandes figures du « tango » sont également des compositeurs et interprètes de milongas et de valses. Le bandonéon, intégré au sein des orchestres de tango, composés majoritairement d'instruments à cordes, est traditionnellement l'instrument phare du tango. ",
-      credits: [{pseudo:"Florian", reseau:""},{pseudo:"Khandro", reseau:"https://www.instagram.com/tr0l0catladybug/"}],
+      credits: [{pseudo:"Florian", reseau:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F28%2F7d%2F47%2F287d476e21403c4a0459102c404cc361.jpg&f=1&nofb=1&ipt=c07964b3e3b42b8d7e476885268a941a36ccebda01925975843084ba5c14df5c"},{pseudo:"Khandro", reseau:"https://www.instagram.com/tr0l0catladybug/"}],
       reco:"blibloublap",
       commentaire:"zoing"
     },
@@ -297,7 +297,7 @@ const albumsData = [
       vers: `« Lorsqu'on t'a enterré   \nUn oiseau chantait. J'aimerais l'entendre encore. »`,
       style: "Grime",
       historique:"Le grime est un genre musical ayant émergé à Londres au début des années 2000, dans le quartier de Bow. Il se développe à partir du genre dance britannique UK garage, et tire ses influences, pour les productions, de la jungle, de la drum and bass, du 2-step et d'autres genres de musiques tirés du continuum hardcore théorisé par le critique musical Simon Reynolds. Pour ce qui est du flow, le grime tire son influence du dancehall et du hip-hop. Le style est caractérisé par des breakbeats rapides et syncopés, généralement autour de 140 BPM, et présente souvent un son électronique agressif ou fragmenté. Comme dans le hip-hop, le emceeing est un élément important du style, et les paroles tournent fréquemment autour de descriptions grinçantes et sombres de la vie urbaine. ",
-      credits: [{pseudo:"kukurio", reseau:""}],
+      credits: [{pseudo:"kukurio", reseau:"https://www.youtube.com/watch?v=PXsPEk3ETcU&pp=ygUPc3VyaWNhdGUgYW5pbWFs"}],
       reco:"blibloublap",
       commentaire:"zoing"
     },
@@ -386,7 +386,7 @@ const albumsData = [
       vers: `«  Ce soleil, si aveuglant, et pourtant si beau, \nC'est avec vous que j'aimerais le revoir »`,
       style: "Morna",
       historique:"La morna est un genre musical originaire du Cap-Vert. Elle est souvent comparée à la musique brésilienne bossa nova, car elle est mélancolique et lente. La morna est généralement chantée en créole capverdien, mais elle peut aussi être interprétée en portugais. Elle est souvent accompagnée de guitare, de cavaquinho (une petite guitare à quatre cordes), de violon et de percussions. ",
-      credits: [{pseudo:"nyan", reseau:"https://www.instagram.com/nyan.raw/"},{pseudo:"AD", reseau:"https://www.instagram.com/wapsad/"},{pseudo:"Florian", reseau:""},{pseudo:"Khandro", reseau:"https://www.instagram.com/tr0l0catladybug/"},{pseudo:"Zozo", reseau:"https://www.instagram.com/maxi.mr.zozo/"},{pseudo:"Marion", reseau:"https://www.instagram.com/marmottion/"}],
+      credits: [{pseudo:"nyan", reseau:"https://www.instagram.com/nyan.raw/"},{pseudo:"AD", reseau:"https://www.instagram.com/wapsad/"},{pseudo:"Florian", reseau:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F28%2F7d%2F47%2F287d476e21403c4a0459102c404cc361.jpg&f=1&nofb=1&ipt=c07964b3e3b42b8d7e476885268a941a36ccebda01925975843084ba5c14df5c"},{pseudo:"Khandro", reseau:"https://www.instagram.com/tr0l0catladybug/"},{pseudo:"Zozo", reseau:"https://www.instagram.com/maxi.mr.zozo/"},{pseudo:"Marion", reseau:"https://www.instagram.com/marmottion/"}],
       reco:"blibloublap",
       commentaire:"zoing"
     },
@@ -431,7 +431,7 @@ const albumsData = [
       vers: `« Petit oiseau, si j'ouvre la porte de ta cage \nViendras-tu me voir ? »`,
       style: "Chanson réaliste",
       historique:"La chanson réaliste est un genre musical apparu en France au milieu du XIXe siècle. Elle connaît un premier âge d'or dans les années 1880-1910 dans le sillage du succès de la chanson montmartroise et un second âge d'or pendant l'entre-deux-guerres, grâce au succès d'interprètes principalement féminines comme Fréhel, Damia puis Édith Piaf. La « chanson réaliste » synthétise différentes influences musicales antérieures, tout en développant un imaginaire singulier autour des marges sociales qui fascinent alors la société de la IIIe République. Héritière des complaintes d'Ancien Régime, de la chanson populaire et révolutionnaire du XIXe siècle, le genre « réaliste » se distingue du reste de la musique légère produite à la même époque (opérette et chanson comique de café-concert) par des textes inspirés de l'univers de la rue parisienne et de ses bas-fonds. Les thèmes récurrents de ces chansons traitent de sujets dramatiques empreints d'une noirceur certaine. Leurs personnages sont généralement prisonniers de leur misère, de leur condition sociale (basse), de leur passion amoureuse...  ",
-      credits: [{pseudo:"Pascale", reseau:""}],
+      credits: [{pseudo:"Pascale", reseau:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fphotos-premium%2Fmignon-petit-chaton-britannique-bleu-gris-dormant-enveloppe-dans-couverture-carreaux-blanche-concept-adorables-animaux-compagnie_106368-4291.jpg%3Fw%3D2000&f=1&nofb=1&ipt=d343d07416d5783286c3bd2063ac45285deed71320ce972024cb2c1b0980b6cf"}],
       reco:"blibloublap",
       commentaire:"zoing"
     },
@@ -461,7 +461,7 @@ const albumsData = [
       vers: `« Et je rêve rêve rêve     \nEncore encore encore \nDe ma vie passé présente future \nAvec elle lui et toi »`,
       style: "Polska suédoise",
       historique:"La polska est une danse folklorique suédoise, qui se danse en couple, et qui est généralement dansée sur un rythme à trois temps. Elle est souvent associée à la musique folk suédoise, mais elle peut également être dansée sur d'autres genres musicaux. La polska est une danse populaire en Suède depuis le XIXe siècle, et elle est souvent dansée lors de fêtes et de célébrations. ",
-      credits: [{pseudo:"Paysages suédois", reseau:""}],
+      credits: [{pseudo:"Paysages suédois", reseau:"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.birkavikingastaden.se%2Fwp-content%2Fuploads%2F2016%2F04%2Fansgarmonumentet-768x512.jpg&f=1&nofb=1&ipt=7fac1f2d5a45ee19edf3827d06b7503838f1c7b0c771c33a4539d3aa80554fa2"}],
       reco:"blibloublap",
       commentaire:"zoing"
     },

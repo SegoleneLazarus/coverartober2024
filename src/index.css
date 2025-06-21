@@ -18,14 +18,15 @@ body {
 
 @font-face {
   font-family: 'Type Wheel';
-  src: url('/fonts/TypeWheel.woff2') format('woff2'),
-       url('/fonts/TypeWheel.woff') format('woff');
+  src: 
+      url('../public/fonts/TypeWheel.woff2') format('woff2'),
+       url('../public/fonts/TypeWheel.woff') format('woff');
   font-display: swap;
 }
 
 @font-face {
   font-family: 'Windows Command Prompt';
-  src: url('/fonts/Windows-Command-Prompt.woff2') format('woff2'),
-       url('/fonts/Windows-Command-Prompt.woff') format('woff');
+  src: url('../public/fonts/Windows-Command-Prompt.woff2') format('woff2'),
+       url('../public/fonts/Windows-Command-Prompt.woff') format('woff');
   font-display: swap;
 }

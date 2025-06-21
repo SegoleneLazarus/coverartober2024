@@ -113,7 +113,7 @@ const Accueil = () => {
     navigate(`/album/${newIndex}`);
   };
   const handleClickParanoia = () => {
-    const index =[6,16,30,21,15,7,12];
+    const index =[6,16,30,21,15,4,12];
     const randomIndex = Math.floor(Math.random() * index.length);
   const newIndex = index[randomIndex];
     navigate(`/album/${newIndex}`);
